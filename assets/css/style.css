@@ -1,0 +1,80 @@
+/* Main Style */
+* {
+    letter-spacing: 0!important;
+    
+}
+body {
+    margin: 0;
+    padding: 0;
+    background: #000;
+    color: rgb(255,255,255);
+}
+
+/* Navigation Style */
+.net-logo {
+    width: 9.25rem;
+    height: 2.5rem;
+    color: rgb(229,9,20);
+    fill: currentColor;
+    display: block;
+}
+
+
+/* Button Style */
+.net-btn {
+    border: 0px;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    fill: currentcolor;
+    vertical-align: text-top;
+    width: auto;
+    font-weight: 500;
+    background: rgb(229, 9, 20);
+    color: rgb(255, 255, 255);
+}
+
+.net-btn:hover {
+    background: rgb(206, 9, 19);
+    color: rgb(255, 255, 255);
+}
+
+.net-btn-small{
+    font-size: 0.9em;
+}
+.net-btn-mid {
+    font-size: 1.5rem;
+}
+.net-text-lg {
+    font-size: 3rem;
+}
+.net-text-sm {
+    font-size: 1.5rem;
+}
+
+.header{
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.8)), url(../img/hero.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    min-height: 85vh;
+    overflow: hidden;
+    
+}
+
+.divider {
+    background-color: rgb(35,35,35);
+    height: 0.5rem;
+}
+
+@media screen and (max-width: 959.98px){
+.net-logo {
+    width: 5.5625rem;
+    height: 1.5rem;
+}
+.header {
+    width: 100%;
+    height: 100%;
+}
+}
